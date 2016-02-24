@@ -1,1 +1,23 @@
-body{color:green;}
+/*1 variable */
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$padding: 2%;
+$spanColor:green;
+
+
+body {
+  font: $font-stack;
+  color: $primary-color;
+  padding:$padding;
+
+  /* 2 */
+  /*padding: $padding+5%;*/
+  /* 2 */
+}
+span{color:$spanColor;}
+
+
+
+
+/*1 variable end */
