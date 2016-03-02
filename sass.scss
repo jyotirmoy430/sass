@@ -17,7 +17,23 @@ body {
 }
 span{color:$spanColor;}
 
+/*Nested one*/
+/*
+.check div a{color:red;}
+.check p a{color:red;}
+*/
 
 
+/*Nested two*/
+/*
+.check{
+  div{
+    a{color: red;}
+  }
+  p{
+    a{color:green;}
+  }
+}
+*/
 
 /*1 variable end */
