@@ -4,36 +4,21 @@ $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 $padding: 2%;
 $spanColor:green;
+$radius: 36px;
 
+@mixin border-radius($radius: 20px){
+  border: 1px solid;
+  border-radius: $radius;
+}
 
 body {
   font: $font-stack;
   color: $primary-color;
   padding:$padding;
 
-  /* 2 */
-  /*padding: $padding+5%;*/
-  /* 2 */
 }
 span{color:$spanColor;}
 
-/*Nested one*/
-/*
-.check div a{color:red;}
-.check p a{color:red;}
-*/
-
-
-/*Nested two*/
-/*
 .check{
-  div{
-    a{color: red;}
-  }
-  p{
-    a{color:green;}
-  }
+   @include border-radius(55px);
 }
-*/
-
-/*1 variable end */
