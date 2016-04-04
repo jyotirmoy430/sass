@@ -22,3 +22,9 @@ span{color:$spanColor;}
 .check{
    @include border-radius(55px);
 }
+
+/*uncomment*/
+.moreCheck{
+@extend .check;
+}
+/*uncomment*/
